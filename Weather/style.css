@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-container {
+  background: linear-gradient(to top right, #1e3c72, #2a5298);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 1s ease;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.search button {
+  padding: 12px 15px;
+  background-color: #ff9f1a;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.search button:hover {
+  background-color: #e67e22;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.1em;
+}
+
